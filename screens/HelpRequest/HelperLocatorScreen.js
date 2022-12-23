@@ -1,4 +1,13 @@
-import { Image, StyleSheet, Text, View, KeyboardAvoidingView, TouchableOpacity, SafeAreaView, ScrollView, } from 'react-native';
+import { Image, 
+  StyleSheet, 
+  Text, 
+  View, 
+  KeyboardAvoidingView, 
+  TouchableOpacity, 
+  SafeAreaView, 
+  ScrollView, 
+  ActivityIndicator 
+} from 'react-native';
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -251,6 +260,7 @@ export default function HelperLocatorScreen({ navigation }) {
       </SafeAreaView>
       <ScrollView style={styles.helpersContainer} alignItems={'center'}>
       {helpers}
+      <ActivityIndicator size="large" color="#5CA4A9" />
       </ScrollView>
     </KeyboardAvoidingView>
     
