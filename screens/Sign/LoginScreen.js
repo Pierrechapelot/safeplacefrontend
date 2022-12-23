@@ -145,16 +145,18 @@ const styles = StyleSheet.create({
   title: {
     width: "80%",
     fontSize: 38,
-    fontWeight: "600",
+    fontWeight: "400",
     textAlign: "center",
-    color: '#33355C'
+    color: '#33355C',
+    fontFamily: 'Raleway',
   },
   titleBis: {
     width: "80%",
     fontSize: 38,
-    fontWeight: "600",
+    fontWeight: "400",
     textAlign: "center",
     color: "#FFA647",
+    fontFamily: 'Raleway',
   },
   title2: {
     marginTop: 20,
@@ -162,7 +164,8 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: "600",
     textAlign: "center",
-    color: '#5CA4A9'
+    color: '#5CA4A9',
+    fontFamily: 'Raleway',
   },
   inputGroup: {
     marginTop: 50,

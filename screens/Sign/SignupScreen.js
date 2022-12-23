@@ -209,16 +209,18 @@ const styles = StyleSheet.create({
   title: {
     width: "80%",
     fontSize: 30,
-    fontWeight: "600",
+    fontWeight: "400",
     textAlign: "center",
     color: "#33355C",
+    fontFamily: 'Raleway',
   },
   title2: {
     width: "80%",
     fontSize: 30,
-    fontWeight: "600",
+    fontWeight: "400",
     textAlign: "center",
     color: "#FFA647",
+    fontFamily: 'Raleway',
   },
   inputGroup: {
     marginTop: 20,
